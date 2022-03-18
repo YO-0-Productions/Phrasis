@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.Lerp(transform.position, destination, speed);
+        //transform.position = Vector3.Lerp(transform.position, destination, speed);
     }
 
     private void OnKeywordsRecognised(PhraseRecognizedEventArgs args)
@@ -49,24 +49,27 @@ public class PlayerController : MonoBehaviour
 
     private void GoForward()
     {
-        destination = gameObject.transform.position + Vector3.forward * 10;
+        Vector3 force = Vector3.forward * speed;
+        playerRb.AddForce(force);
     }
 
     private void TurnLeft()
     {
-        destination = gameObject.transform.position + Vector3.left * 13;
-
+        Vector3 force = Vector3.left * speed;
+        playerRb.AddForce(force);
     }
 
     private void TurnRight()
     {
-        destination = gameObject.transform.position + Vector3.right * 22;
+        Vector3 force = Vector3.right * speed;
+        playerRb.AddForce(force);
     }
 
 
     private void TurnBack()
     {
-        destination = gameObject.transform.position + Vector3.back * 10;
+        Vector3 force = Vector3.back * speed;
+        playerRb.AddForce(force);
     }
 
 }

@@ -12,6 +12,7 @@ public class NumberMaze : MonoBehaviour
     [SerializeField] private int rowNumber = 1;
     [SerializeField] private int columnNumber = 1;
     [SerializeField] private GameObject cellPrefab;
+    [SerializeField] private float cellSize;
 
     // Start is called before the first frame update
     void Start()
@@ -19,8 +20,8 @@ public class NumberMaze : MonoBehaviour
         //int cellNumber = rowNumber * columnNumber;
         for (int i = 0; i < rowNumber*columnNumber; i++)
         {
-            GameObject cellObject = Instantiate(cellPrefab, new Vector3(0, 0, 0), Quaternion.identity);
-            cellObject.transform.Translate((i % columnNumber) * 2, 0, (i / rowNumber) * 2);
+            GameObject cellObject = Instantiate(cellPrefab, transform.position, Quaternion.identity);
+            cellObject.transform.Translate((i % columnNumber) * cellSize, 0, (i / rowNumber) * cellSize);
             cellObject.GetComponent<Cell>().Value = cellValues[i];
             cells.Add(cellObject);
             cellObject.transform.SetParent(this.transform);
