@@ -11,4 +11,58 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/R_E.unity
     guid: 86a7bbbe7a5653141be7f908ff5bb4b9
+  - enabled: 1
+    path: Assets/Scenes/R_EE.unity
+    guid: 00e24b641dec57d468cc20151aa386db
+  - enabled: 1
+    path: Assets/Scenes/R_ES.unity
+    guid: 1e6db7bee23517b46ba5a74c62c0acbc
+  - enabled: 1
+    path: Assets/Scenes/R_N.unity
+    guid: ef30e4354ab63c140a52ea3dbfcada2b
+  - enabled: 1
+    path: Assets/Scenes/R_NE.unity
+    guid: e8a2cbc9b0fcc4848b55ae756ceae965
+  - enabled: 1
+    path: Assets/Scenes/R_NEE.unity
+    guid: 9f5e36e26b2296a448ecd54e067b8574
+  - enabled: 1
+    path: Assets/Scenes/R_NEN.unity
+    guid: dcc13b60037e70c46a8604122d717e72
+  - enabled: 1
+    path: Assets/Scenes/R_NN.unity
+    guid: eb0a63d7b83ae734b98673474aa8a9be
+  - enabled: 1
+    path: Assets/Scenes/R_NW.unity
+    guid: ee79da6aac16b0f409a8cc597966940a
+  - enabled: 1
+    path: Assets/Scenes/R_W.unity
+    guid: 282e0acccf39dc74da71324c583e3224
+  - enabled: 1
+    path: Assets/Scenes/R_WS.unity
+    guid: 12a7f48765f44a24a913fc3a70119b25
+  - enabled: 1
+    path: Assets/Scenes/R_WSE.unity
+    guid: 5b266eb3cbd00914393338a81b56e847
+  - enabled: 1
+    path: Assets/Scenes/R_WSS.unity
+    guid: 62c95474656ce484baa6412bcd125759
+  - enabled: 1
+    path: Assets/Scenes/R_WW.unity
+    guid: 76b5626c1f63ef14785406e43b5788d6
+  - enabled: 1
+    path: Assets/Scenes/R_WWN.unity
+    guid: 84a969a926ea1e54781a37bb69e83a6b
+  - enabled: 1
+    path: Assets/Scenes/R_WWS.unity
+    guid: 3d442591c5568fe468dd083e1848ef12
+  - enabled: 1
+    path: Assets/Scenes/R_WWSS.unity
+    guid: 711cd961f37e39548b506257fde74759
+  - enabled: 1
+    path: Assets/Scenes/R_WWSW.unity
+    guid: 80d5481f81c408f42a98b527d091bec3
+  - enabled: 1
+    path: Assets/Scenes/R_WWW.unity
+    guid: fd3f7f90034cbe84784c6b8ade3c3fcc
   m_configObjects: {}
