@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Windows.Speech;
 
 public class NumberMaze : MonoBehaviour
 {
@@ -14,9 +16,24 @@ public class NumberMaze : MonoBehaviour
     [SerializeField] private GameObject cellPrefab;
     [SerializeField] private float cellSize;
 
+    private Dictionary<string, Action> keywordActions = new Dictionary<string, Action>();
+    private KeywordRecognizer keywordRecognizer;
+
+
     // Start is called before the first frame update
     void Start()
     {
+        PlayerController tokenController = token.GetComponent<PlayerController>();
+        tokenController.enabled = false;
+        
+        keywordActions.Add("north", GoNorth);
+        keywordActions.Add("west", GoWest);
+        keywordActions.Add("east", GoEast);
+        keywordActions.Add("south", GoSouth);
+
+        keywordRecognizer = new KeywordRecognizer(keywordActions.Keys.ToArray());
+        keywordRecognizer.OnPhraseRecognized += OnKeywordsRecognised;
+        keywordRecognizer.Start();
         //int cellNumber = rowNumber * columnNumber;
         for (int i = 0; i < rowNumber*columnNumber; i++)
         {
@@ -37,60 +54,84 @@ public class NumberMaze : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
-            int destinationIndex = tokenIndex - cells[tokenIndex].GetComponent<Cell>().Value;
-            if (destinationIndex / columnNumber == tokenIndex / columnNumber)
-            {
-                GameObject destinationCell = cells[destinationIndex];
-                token.transform.localPosition = destinationCell.transform.localPosition;
-                tokenIndex = destinationIndex;
-                if (cells[tokenIndex].GetComponent<Cell>().Value == 0)
-                {
-                    Debug.Log("Puzzle is solved");
-                }
-            }
-
+            GoWest();
         }
         if (Input.GetKeyDown(KeyCode.D))
         {
-            int destinationIndex = tokenIndex + cells[tokenIndex].GetComponent<Cell>().Value;
-            if (destinationIndex / columnNumber == tokenIndex / columnNumber)
-            {
-                GameObject destinationCell = cells[destinationIndex];
-                token.transform.localPosition = destinationCell.transform.localPosition;
-                tokenIndex = destinationIndex;
-                if (cells[tokenIndex].GetComponent<Cell>().Value == 0)
-                {
-                    Debug.Log("Puzzle is solved");
-                }
-            }
-
+            GoEast();
         }
         if (Input.GetKeyDown(KeyCode.W))
         {
-            int destinationIndex = tokenIndex + cells[tokenIndex].GetComponent<Cell>().Value * columnNumber;
-            if (0 <= destinationIndex && destinationIndex <= rowNumber * columnNumber)
-            {
-                GameObject destinationCell = cells[destinationIndex];
-                token.transform.localPosition = destinationCell.transform.localPosition;
-                tokenIndex = destinationIndex;
-                if (cells[tokenIndex].GetComponent<Cell>().Value == 0)
-                {
-                    Debug.Log("Puzzle is solved");
-                }
-            }
+            GoNorth();
         }
         if (Input.GetKeyDown(KeyCode.S))
         {
-            int destinationIndex = tokenIndex - cells[tokenIndex].GetComponent<Cell>().Value * columnNumber;
-            if (0 <= destinationIndex && destinationIndex <= rowNumber * columnNumber)
+            GoSouth();
+        }
+    }
+
+    private void OnKeywordsRecognised(PhraseRecognizedEventArgs args)
+    {
+        Debug.Log("Keyword: " + args.text);
+        keywordActions[args.text].Invoke();
+    }
+
+    private void GoNorth()
+    {
+        int destinationIndex = tokenIndex + cells[tokenIndex].GetComponent<Cell>().Value * columnNumber;
+        if (0 <= destinationIndex && destinationIndex <= rowNumber * columnNumber)
+        {
+            GameObject destinationCell = cells[destinationIndex];
+            token.transform.localPosition = destinationCell.transform.localPosition;
+            tokenIndex = destinationIndex;
+            if (cells[tokenIndex].GetComponent<Cell>().Value == 0)
             {
-                GameObject destinationCell = cells[destinationIndex];
-                token.transform.localPosition = destinationCell.transform.localPosition;
-                tokenIndex = destinationIndex;
-                if (cells[tokenIndex].GetComponent<Cell>().Value == 0)
-                {
-                    Debug.Log("Puzzle is solved");
-                }
+                Debug.Log("Puzzle is solved");
+            }
+        }
+    }
+
+    private void GoWest()
+    {
+        int destinationIndex = tokenIndex - cells[tokenIndex].GetComponent<Cell>().Value;
+        if (destinationIndex / columnNumber == tokenIndex / columnNumber)
+        {
+            GameObject destinationCell = cells[destinationIndex];
+            token.transform.localPosition = destinationCell.transform.localPosition;
+            tokenIndex = destinationIndex;
+            if (cells[tokenIndex].GetComponent<Cell>().Value == 0)
+            {
+                Debug.Log("Puzzle is solved");
+            }
+        }
+    }
+
+    private void GoEast()
+    {
+        int destinationIndex = tokenIndex + cells[tokenIndex].GetComponent<Cell>().Value;
+        if (destinationIndex / columnNumber == tokenIndex / columnNumber)
+        {
+            GameObject destinationCell = cells[destinationIndex];
+            token.transform.localPosition = destinationCell.transform.localPosition;
+            tokenIndex = destinationIndex;
+            if (cells[tokenIndex].GetComponent<Cell>().Value == 0)
+            {
+                Debug.Log("Puzzle is solved");
+            }
+        }
+    }
+
+    private void GoSouth()
+    {
+        int destinationIndex = tokenIndex - cells[tokenIndex].GetComponent<Cell>().Value * columnNumber;
+        if (0 <= destinationIndex && destinationIndex <= rowNumber * columnNumber)
+        {
+            GameObject destinationCell = cells[destinationIndex];
+            token.transform.localPosition = destinationCell.transform.localPosition;
+            tokenIndex = destinationIndex;
+            if (cells[tokenIndex].GetComponent<Cell>().Value == 0)
+            {
+                Debug.Log("Puzzle is solved");
             }
         }
     }

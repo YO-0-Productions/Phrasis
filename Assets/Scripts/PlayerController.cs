@@ -16,16 +16,15 @@ public class PlayerController : MonoBehaviour
     private Rigidbody playerRb;
     private Vector3 destination;
     private float speed = 1000;
-    private bool isFreeMoving = true;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        keywordActions.Add("front", GoForward);
-        keywordActions.Add("left", TurnLeft);
-        keywordActions.Add("right", TurnRight);
-        keywordActions.Add("back", TurnBack);
+        keywordActions.Add("north", GoNorth);
+        keywordActions.Add("west", GoWest);
+        keywordActions.Add("east", GoEast);
+        keywordActions.Add("south", GoSouth);
 
         keywordRecognizer = new KeywordRecognizer(keywordActions.Keys.ToArray());
         keywordRecognizer.OnPhraseRecognized += OnKeywordsRecognised;
@@ -45,32 +44,30 @@ public class PlayerController : MonoBehaviour
     private void OnKeywordsRecognised(PhraseRecognizedEventArgs args)
     {
         Debug.Log("Keyword: " + args.text);
-        if (isFreeMoving)
-        {
-            keywordActions[args.text].Invoke();
-        }
+        keywordActions[args.text].Invoke();
+
     }
 
-    private void GoForward()
+    private void GoNorth()
     {
         Vector3 force = Vector3.forward * speed;
         playerRb.AddForce(force);
     }
 
-    private void TurnLeft()
+    private void GoWest()
     {
         Vector3 force = Vector3.left * speed;
         playerRb.AddForce(force);
     }
 
-    private void TurnRight()
+    private void GoEast()
     {
         Vector3 force = Vector3.right * speed;
         playerRb.AddForce(force);
     }
 
 
-    private void TurnBack()
+    private void GoSouth()
     {
         Vector3 force = Vector3.back * speed;
         playerRb.AddForce(force);
