@@ -15,7 +15,8 @@ public class PlayerController : MonoBehaviour
     private KeywordRecognizer keywordRecognizer;
     private Rigidbody playerRb;
     private Vector3 destination;
-    public float speed = 0.01f;
+    private float speed = 1000;
+    private bool isFreeMoving = true;
 
 
     // Start is called before the first frame update
@@ -44,7 +45,10 @@ public class PlayerController : MonoBehaviour
     private void OnKeywordsRecognised(PhraseRecognizedEventArgs args)
     {
         Debug.Log("Keyword: " + args.text);
-        keywordActions[args.text].Invoke();
+        if (isFreeMoving)
+        {
+            keywordActions[args.text].Invoke();
+        }
     }
 
     private void GoForward()

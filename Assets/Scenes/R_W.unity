@@ -123,68 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &331884312
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1902916484}
-    m_Modifications:
-    - target: {fileID: 4495587792632096212, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4495587792632096212, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4495587792632096212, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4495587792632096212, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 13.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 4495587792632096212, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4495587792632096212, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4495587792632096212, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4495587792632096212, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4495587792632096212, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4495587792632096212, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 4495587792632096212, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4495587792632096213, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
-      propertyPath: m_Name
-      value: Gate (2)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
---- !u!4 &331884313 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4495587792632096212, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
-  m_PrefabInstance: {fileID: 331884312}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &482599099 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4495587792632096212, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
@@ -326,7 +264,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -7742190313401514907, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
       propertyPath: sceneName
-      value: R_E
+      value: FirstRoom
       objectReference: {fileID: 0}
     - target: {fileID: 4495587792632096212, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
       propertyPath: m_RootOrder
@@ -616,9 +554,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1902916484}
     m_Modifications:
+    - target: {fileID: -7742190313401514907, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
+      propertyPath: sceneName
+      value: R_WS
+      objectReference: {fileID: 0}
     - target: {fileID: 4495587792632096212, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4495587792632096212, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1088,7 +1030,6 @@ Transform:
   m_Children:
   - {fileID: 482599099}
   - {fileID: 683329323}
-  - {fileID: 331884313}
   - {fileID: 1133945272}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -1100,6 +1041,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1902916484}
     m_Modifications:
+    - target: {fileID: -7742190313401514907, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
+      propertyPath: sceneName
+      value: R_WW
+      objectReference: {fileID: 0}
     - target: {fileID: 4495587792632096212, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
       propertyPath: m_RootOrder
       value: 0
