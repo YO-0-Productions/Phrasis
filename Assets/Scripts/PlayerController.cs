@@ -21,10 +21,10 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        keywordActions.Add("north", GoNorth);
-        keywordActions.Add("west", GoWest);
-        keywordActions.Add("east", GoEast);
-        keywordActions.Add("south", GoSouth);
+        keywordActions.Add("go up", GoNorth);
+        keywordActions.Add("go left", GoWest);
+        keywordActions.Add("go right", GoEast);
+        keywordActions.Add("go down", GoSouth);
 
         keywordRecognizer = new KeywordRecognizer(keywordActions.Keys.ToArray());
         keywordRecognizer.OnPhraseRecognized += OnKeywordsRecognised;

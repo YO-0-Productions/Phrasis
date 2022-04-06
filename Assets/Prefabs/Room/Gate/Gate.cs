@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Gate : MonoBehaviour
 {
-    [SerializeField] private string sceneName;
+    [SerializeField] public string sceneName;
 
     // Start is called before the first frame update
     void Start()

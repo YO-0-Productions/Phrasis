@@ -1,8 +1,10 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Windows.Speech;
 
 public class NumberMaze : MonoBehaviour
@@ -15,6 +17,7 @@ public class NumberMaze : MonoBehaviour
     [SerializeField] private int columnNumber = 1;
     [SerializeField] private GameObject cellPrefab;
     [SerializeField] private float cellSize;
+    [SerializeField] private string exitScene;
 
     private Dictionary<string, Action> keywordActions = new Dictionary<string, Action>();
     private KeywordRecognizer keywordRecognizer;
@@ -23,15 +26,17 @@ public class NumberMaze : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        exitScene = FindObjectOfType<Gate>().sceneName;
+
         PlayerController tokenController = token.GetComponent<PlayerController>();
         tokenController.enabled = false;
         
-        keywordActions.Add("north", GoNorth);
-        keywordActions.Add("west", GoWest);
-        keywordActions.Add("east", GoEast);
-        keywordActions.Add("south", GoSouth);
+        keywordActions.Add("go up", GoNorth);
+        keywordActions.Add("go left", GoWest);
+        keywordActions.Add("go right", GoEast);
+        keywordActions.Add("go down", GoSouth);
 
-        keywordRecognizer = new KeywordRecognizer(keywordActions.Keys.ToArray());
+        keywordRecognizer = new KeywordRecognizer(keywordActions.Keys.ToArray(), ConfidenceLevel.Low);
         keywordRecognizer.OnPhraseRecognized += OnKeywordsRecognised;
         keywordRecognizer.Start();
         //int cellNumber = rowNumber * columnNumber;
@@ -68,6 +73,18 @@ public class NumberMaze : MonoBehaviour
         {
             GoSouth();
         }
+        if (cells[tokenIndex].GetComponent<Cell>().Value == 0)
+        {
+            Debug.Log("Puzzle is solved");
+            StartCoroutine(ExitFromPuzzle());
+        }
+    }
+
+    IEnumerator ExitFromPuzzle()
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene(exitScene);
+        yield return null;
     }
 
     private void OnKeywordsRecognised(PhraseRecognizedEventArgs args)
@@ -84,10 +101,7 @@ public class NumberMaze : MonoBehaviour
             GameObject destinationCell = cells[destinationIndex];
             token.transform.localPosition = destinationCell.transform.localPosition;
             tokenIndex = destinationIndex;
-            if (cells[tokenIndex].GetComponent<Cell>().Value == 0)
-            {
-                Debug.Log("Puzzle is solved");
-            }
+
         }
     }
 
