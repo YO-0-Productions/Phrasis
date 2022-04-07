@@ -10,23 +10,20 @@ public class MainMenu : MonoBehaviour
 {
     private Dictionary<string, Action> actions;
     private KeywordRecognizer kwRecognizer;
-    private string sceneName = "FirstRoom";
+    //private string sceneName = "FirstRoom";
     // Start is called before the first frame update
     void Start()
     {
         actions = new Dictionary<string, Action>();
-        actions.Add("play", StartGame);
+        actions.Add("play", Play);
+        actions.Add("new game", NewGame);
         actions.Add("quit", Quit);
 
         kwRecognizer = new KeywordRecognizer(actions.Keys.ToArray(), ConfidenceLevel.Low);
         kwRecognizer.OnPhraseRecognized += OnKeywordRecognized;
         kwRecognizer.Start();
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        SceneManager.activeSceneChanged += SaveSystem.SaveLocation;
     }
 
     private void OnKeywordRecognized(PhraseRecognizedEventArgs args)
@@ -36,10 +33,17 @@ public class MainMenu : MonoBehaviour
         actions[keyword].Invoke();
     }
 
-    private void StartGame()
+    private void NewGame()
     {
+        SaveSystem.PrepareNewGame();
+        Play();
+    }
+
+    private void Play()
+    {
+        PlayerData data = SaveSystem.LoadPlayerData();
         Debug.Log("The game is started.");
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(data.sceneName);
     }
 
     private void Quit()

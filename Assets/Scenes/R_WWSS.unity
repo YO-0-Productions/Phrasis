@@ -147,6 +147,10 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6497498346386430768, guid: bd898dbe6aac2214a90c32dc2f35ff3e, type: 3}
+      propertyPath: puzzleIndex
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497498346386430768, guid: bd898dbe6aac2214a90c32dc2f35ff3e, type: 3}
       propertyPath: columnNumber
       value: 5
       objectReference: {fileID: 0}
@@ -651,7 +655,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementUnit: 5
-  speed: 0.01
 --- !u!65 &1118634294
 BoxCollider:
   m_ObjectHideFlags: 0

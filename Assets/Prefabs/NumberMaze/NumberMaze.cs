@@ -18,6 +18,8 @@ public class NumberMaze : MonoBehaviour
     [SerializeField] private GameObject cellPrefab;
     [SerializeField] private float cellSize;
     [SerializeField] private string exitScene;
+    [SerializeField] private int puzzleIndex;
+
 
     private Dictionary<string, Action> keywordActions = new Dictionary<string, Action>();
     private KeywordRecognizer keywordRecognizer;
@@ -73,11 +75,7 @@ public class NumberMaze : MonoBehaviour
         {
             GoSouth();
         }
-        if (cells[tokenIndex].GetComponent<Cell>().Value == 0)
-        {
-            Debug.Log("Puzzle is solved");
-            StartCoroutine(ExitFromPuzzle());
-        }
+
     }
 
     IEnumerator ExitFromPuzzle()
@@ -87,10 +85,26 @@ public class NumberMaze : MonoBehaviour
         yield return null;
     }
 
+    private bool IsSolved()
+    {
+        return cells[tokenIndex].GetComponent<Cell>().Value == 0 ? true : false;
+    }
+
+    private void ExitIfSolved()
+    {
+        if (IsSolved())
+        {
+            Debug.Log("Puzzle is solved");
+            SaveSystem.SaveCompletion(puzzleIndex);
+            StartCoroutine(ExitFromPuzzle());
+        }
+    }
+
     private void OnKeywordsRecognised(PhraseRecognizedEventArgs args)
     {
         Debug.Log("Keyword: " + args.text);
         keywordActions[args.text].Invoke();
+        ExitIfSolved();
     }
 
     private void GoNorth()

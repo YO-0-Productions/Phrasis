@@ -223,7 +223,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementUnit: 5
-  speed: 0.01
 --- !u!65 &499906236
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -734,6 +733,10 @@ PrefabInstance:
     - target: {fileID: 6497498346386430768, guid: bd898dbe6aac2214a90c32dc2f35ff3e, type: 3}
       propertyPath: tokenIndex
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497498346386430768, guid: bd898dbe6aac2214a90c32dc2f35ff3e, type: 3}
+      propertyPath: puzzleIndex
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6497498346386430768, guid: bd898dbe6aac2214a90c32dc2f35ff3e, type: 3}
       propertyPath: columnNumber
