@@ -26,6 +26,9 @@ public class PlayerController : MonoBehaviour
         keywordActions.Add("go right", GoEast);
         keywordActions.Add("go down", GoSouth);
 
+        // REMOVE LATER - CHEAT CODE
+        keywordActions.Add("load end", LoadEnd);
+
         keywordRecognizer = new KeywordRecognizer(keywordActions.Keys.ToArray());
         keywordRecognizer.OnPhraseRecognized += OnKeywordsRecognised;
         keywordRecognizer.Start();
@@ -66,11 +69,14 @@ public class PlayerController : MonoBehaviour
         playerRb.AddForce(force);
     }
 
-
     private void GoSouth()
     {
         Vector3 force = Vector3.back * speed;
         playerRb.AddForce(force);
     }
 
+    private void LoadEnd()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("EndScreen");
+    }
 }

@@ -14,6 +14,8 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        FindObjectOfType<AudioManager>().Play("MenuMusic");
+
         actions = new Dictionary<string, Action>();
         actions.Add("play", Play);
         actions.Add("new game", NewGame);
@@ -44,6 +46,7 @@ public class MainMenu : MonoBehaviour
         PlayerData data = SaveSystem.LoadPlayerData();
         Debug.Log("The game is started.");
         SceneManager.LoadScene(data.sceneName);
+        FindObjectOfType<AudioManager>().SetBackgroundMusic("MainTheme");
     }
 
     private void Quit()
