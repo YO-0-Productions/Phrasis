@@ -55,24 +55,28 @@ public class PlayerController : MonoBehaviour
     {
         Vector3 force = Vector3.forward * speed;
         playerRb.AddForce(force);
+        FindObjectOfType<AudioManager>().Play("MovementSound");
     }
 
     private void GoWest()
     {
         Vector3 force = Vector3.left * speed;
         playerRb.AddForce(force);
+        FindObjectOfType<AudioManager>().Play("MovementSound");
     }
 
     private void GoEast()
     {
         Vector3 force = Vector3.right * speed;
         playerRb.AddForce(force);
+        FindObjectOfType<AudioManager>().Play("MovementSound");
     }
 
     private void GoSouth()
     {
         Vector3 force = Vector3.back * speed;
         playerRb.AddForce(force);
+        FindObjectOfType<AudioManager>().Play("MovementSound");
     }
 
     private void LoadEnd()

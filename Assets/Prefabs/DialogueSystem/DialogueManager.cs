@@ -27,7 +27,7 @@ public class DialogueManager : MonoBehaviour
         }
         
         animator.SetBool("IsOpen", true);
-
+        FindObjectOfType<AudioManager>().Play("DialogueAnimationSound");
         DisplayNextSentence();
 
     }
@@ -60,8 +60,7 @@ public class DialogueManager : MonoBehaviour
         }
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
-
-
+        FindObjectOfType<AudioManager>().Play("DialogueNextSound");
     }
 
     IEnumerator TypeSentence (string sentence)
@@ -77,6 +76,7 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
+        FindObjectOfType<AudioManager>().Play("DialogueAnimationSound");
     }
 
 }

@@ -37,6 +37,7 @@ public class NumberMaze : MonoBehaviour
         keywordActions.Add("go left", GoWest);
         keywordActions.Add("go right", GoEast);
         keywordActions.Add("go down", GoSouth);
+        keywordActions.Add("reset puzzle", ResetPuzzle);
 
         keywordRecognizer = new KeywordRecognizer(keywordActions.Keys.ToArray(), ConfidenceLevel.Low);
         keywordRecognizer.OnPhraseRecognized += OnKeywordsRecognised;
@@ -81,6 +82,7 @@ public class NumberMaze : MonoBehaviour
     IEnumerator ExitFromPuzzle()
     {
         yield return new WaitForSeconds(1);
+        FindObjectOfType<AudioManager>().Play("CompletionSound");
         SceneManager.LoadScene(exitScene);
         yield return null;
     }
@@ -109,6 +111,7 @@ public class NumberMaze : MonoBehaviour
 
     private void GoNorth()
     {
+        FindObjectOfType<AudioManager>().Play("MovementSoundNumberMaze");
         int destinationIndex = tokenIndex + cells[tokenIndex].GetComponent<Cell>().Value * columnNumber;
         if (0 <= destinationIndex && destinationIndex <= rowNumber * columnNumber)
         {
@@ -121,6 +124,7 @@ public class NumberMaze : MonoBehaviour
 
     private void GoWest()
     {
+        FindObjectOfType<AudioManager>().Play("MovementSoundNumberMaze");
         int destinationIndex = tokenIndex - cells[tokenIndex].GetComponent<Cell>().Value;
         if (destinationIndex / columnNumber == tokenIndex / columnNumber)
         {
@@ -136,6 +140,7 @@ public class NumberMaze : MonoBehaviour
 
     private void GoEast()
     {
+        FindObjectOfType<AudioManager>().Play("MovementSoundNumberMaze");
         int destinationIndex = tokenIndex + cells[tokenIndex].GetComponent<Cell>().Value;
         if (destinationIndex / columnNumber == tokenIndex / columnNumber)
         {
@@ -151,6 +156,7 @@ public class NumberMaze : MonoBehaviour
 
     private void GoSouth()
     {
+        FindObjectOfType<AudioManager>().Play("MovementSoundNumberMaze");
         int destinationIndex = tokenIndex - cells[tokenIndex].GetComponent<Cell>().Value * columnNumber;
         if (0 <= destinationIndex && destinationIndex <= rowNumber * columnNumber)
         {
@@ -162,5 +168,11 @@ public class NumberMaze : MonoBehaviour
                 Debug.Log("Puzzle is solved");
             }
         }
+    }
+
+    private void ResetPuzzle()
+    {
+        FindObjectOfType<AudioManager>().Play("ResetPuzzleSound");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
