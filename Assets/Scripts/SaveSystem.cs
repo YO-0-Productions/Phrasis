@@ -73,6 +73,7 @@ public static class SaveSystem
         if (IsCompleted(data))
         {
             Debug.Log("Thanks for playing.");
+            SceneManager.LoadScene("StartMenu");
         }
     }
 
