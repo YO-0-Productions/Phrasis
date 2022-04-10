@@ -26,9 +26,6 @@ public class PlayerController : MonoBehaviour
         keywordActions.Add("go right", GoEast);
         keywordActions.Add("go down", GoSouth);
 
-        // REMOVE LATER - CHEAT CODE
-        keywordActions.Add("load end", LoadEnd);
-
         keywordRecognizer = new KeywordRecognizer(keywordActions.Keys.ToArray());
         keywordRecognizer.OnPhraseRecognized += OnKeywordsRecognised;
         keywordRecognizer.Start();
@@ -41,6 +38,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            LoadEnd();
+        }
         //transform.position = Vector3.Lerp(transform.position, destination, speed);
     }
 

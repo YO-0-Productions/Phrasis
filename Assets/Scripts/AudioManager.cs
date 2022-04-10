@@ -1,12 +1,15 @@
 using UnityEngine.Audio;
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
 
-    private Sound bgSound; 
+    private Sound lastPlayed;
+    private Sound currentBackgroundMusic;
+
 
 
     public static AudioManager instance;
@@ -44,12 +47,17 @@ public class AudioManager : MonoBehaviour
             return; 
         }
         s.source.Play();
-        bgSound = s;
+        lastPlayed = s;
     }
 
     public void SetBackgroundMusic (string name)
     {
-        bgSound.source.Stop();
+        if (currentBackgroundMusic != null)
+        {
+            Debug.Log("debug from SetBackgroundMusic");
+            currentBackgroundMusic.source.Stop();
+        }
         Play(name);
+        currentBackgroundMusic = lastPlayed;
     }
 }
