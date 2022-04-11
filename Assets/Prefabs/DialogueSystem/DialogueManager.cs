@@ -27,8 +27,9 @@ public class DialogueManager : MonoBehaviour
         }
         
         animator.SetBool("IsOpen", true);
-        FindObjectOfType<AudioManager>().Play("DialogueAnimationSound");
         DisplayNextSentence();
+        FindObjectOfType<AudioManager>().Play("DialogueAnimationSound");
+
 
     }
 
