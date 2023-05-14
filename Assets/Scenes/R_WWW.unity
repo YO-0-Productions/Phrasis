@@ -133,7 +133,7 @@ PrefabInstance:
     - target: {fileID: 6497498346386430768, guid: bd898dbe6aac2214a90c32dc2f35ff3e, type: 3}
       propertyPath: token
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 871488647}
     - target: {fileID: 6497498346386430768, guid: bd898dbe6aac2214a90c32dc2f35ff3e, type: 3}
       propertyPath: cellSize
       value: 4
@@ -148,7 +148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6497498346386430768, guid: bd898dbe6aac2214a90c32dc2f35ff3e, type: 3}
       propertyPath: puzzleIndex
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6497498346386430768, guid: bd898dbe6aac2214a90c32dc2f35ff3e, type: 3}
       propertyPath: columnNumber
@@ -461,6 +461,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &871488647 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3636523044968696731, guid: 0e4a6cbf9b5943548b3594a7174b8463, type: 3}
+  m_PrefabInstance: {fileID: 2042770588}
+  m_PrefabAsset: {fileID: 0}
 --- !u!850595691 &888029947
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -622,7 +627,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1259830915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -790,7 +795,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1533435955
 Transform:
   m_ObjectHideFlags: 0

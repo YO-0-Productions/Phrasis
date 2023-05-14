@@ -42,7 +42,7 @@ public static class SaveSystem
     public static void PrepareNewGame()
     {
         string entryScene = "FirstRoom";
-        bool[] completions = new bool[12];
+        bool[] completions = new bool[6];
         SaveSystem.SavePlayerData(entryScene, completions);
     }
 

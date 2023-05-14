@@ -432,7 +432,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1259830915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -610,7 +610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6497498346386430768, guid: bd898dbe6aac2214a90c32dc2f35ff3e, type: 3}
       propertyPath: puzzleIndex
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6497498346386430768, guid: bd898dbe6aac2214a90c32dc2f35ff3e, type: 3}
       propertyPath: columnNumber
@@ -745,7 +745,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1533435955
 Transform:
   m_ObjectHideFlags: 0

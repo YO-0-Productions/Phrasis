@@ -38,6 +38,7 @@ public class NumberMaze : MonoBehaviour
         keywordActions.Add("go right", GoEast);
         keywordActions.Add("go down", GoSouth);
         keywordActions.Add("reset puzzle", ResetPuzzle);
+        keywordActions.Add("exit puzzle", ExitPuzzle);
 
         keywordRecognizer = new KeywordRecognizer(keywordActions.Keys.ToArray(), ConfidenceLevel.Low);
         keywordRecognizer.OnPhraseRecognized += OnKeywordsRecognised;
@@ -174,5 +175,10 @@ public class NumberMaze : MonoBehaviour
     {
         FindObjectOfType<AudioManager>().Play("ResetPuzzleSound");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    private void ExitPuzzle()
+    {
+        StartCoroutine(ExitFromPuzzle());
     }
 }

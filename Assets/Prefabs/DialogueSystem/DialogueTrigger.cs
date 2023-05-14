@@ -18,7 +18,7 @@ public class DialogueTrigger : MonoBehaviour
         actions.Add("speak", TriggerDialogue);
         actions.Add("next", FindObjectOfType<DialogueManager>().DisplayNextSentence);
         actions.Add("continue", FindObjectOfType<DialogueManager>().DisplayNextSentence);
-        actions.Add("end", FindObjectOfType<DialogueManager>().EndDialogue);
+        actions.Add("skip", FindObjectOfType<DialogueManager>().EndDialogue);
         kwRecognizer = new KeywordRecognizer(actions.Keys.ToArray(), ConfidenceLevel.Low);
         kwRecognizer.OnPhraseRecognized += OnKeywordsRecognised;
         kwRecognizer.Start();

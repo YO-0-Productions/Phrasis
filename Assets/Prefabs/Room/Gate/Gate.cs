@@ -24,6 +24,7 @@ public class Gate : MonoBehaviour
         if (collision.collider.CompareTag("Player"))
         {
             Debug.Log("Collided with player");
+            FindObjectOfType<AudioManager>().Play("RoomTeleportSound");
             SceneManager.LoadScene(sceneName);
         }
     }

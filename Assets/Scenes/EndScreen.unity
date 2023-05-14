@@ -710,20 +710,41 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "END STORY\n.........\n.........\n.........\n.........\n.........\n.........\n.........\n.........\n.........\n.........\n\nThanks
+  m_text: "White bull: \u201CWailing\u201D My son. He didn't deserve this Fate. Even
+    he did bad things he was tortured, maddened.\r\n\r\nAsterion: I\u2019m sorry.
+    But who are you exactly?\r\n\r\nWhite bull: I\u2019m the Sacred Bull, one of
+    the first three gods. \r\n\r\nSphinx: Why did you let your son end up like this?
+    What is this first god thing?\r\n\r\nWhite bull: Motuzka is the Web of Fatesitself.
+    Was always semi-conscious. She let weavers and Nyx weave her. I don\u2019t know
+    what they are. Yama and I  are also subject to restrictions of the Web of Fate.
+    We are prototypes of our race. Motuzka treats us like we\u2019re her equals when
+    she acts. She is just a voice to me. I always had this information. In the Fate
+    I was in I had responsibilities at the beginning I did instinctively. But then
+    other gods showed up and started to do tasks I did. In the end I was kind of
+    retired. Same goes for Yama. I wandered around, spent time with people, hung
+    out in the meadows. I never expected to have a son, never think about the Web
+    of fate. \u201Cscreams\u201D But now I cannot accept this. I too now oppose this
+    reality.\r\n\r\nAsterion: Sphinx, don\u2019t get me wrong I don\u2019t go back
+    on our deal but \u0131 agree with him. His son showed us Fate is not absolute.
+    \r\n\r\nSphinx: I\u2019m also on your side on that Asterion. We will find a way.\r\n\r\nTheseus:
+    We shouldered a heavy load to carry huh. I will face Daedalus and try to learn
+    some from him. Of course before killing him and Minos. I guess our ways are parting
+    now. \r\n\r\nAsterion: Thanks, Theseus I hope the best for you.\r\n\r\nTheseus:
+    \u201CNodes and walk through the gate\u201D\r\n\r\nAsterion: Let's get out of
+    here.\r\n\r\n\u201CAsterion, Sphinx and White Bull walk through the gate together.\u201D\r\n\nThanks
     for playing PHRASIS.\nThis game is developed by:\nO\u011Fuzhan \xD6zer\nKamil
-    \u015Een\nSamet Umut Yi\u011Fito\u011Flu\nFor precious people who cannot use
-    conventional controls.\n\n"
+    \u015Een\nSamet Umut Yi\u011Fito\u011Flu\nFor people who cannot use conventional
+    controls.\n\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1e87724ab836e50469899b4fa632b02d, type: 2}
+  m_sharedMaterial: {fileID: -3058806733115685309, guid: 1e87724ab836e50469899b4fa632b02d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4281710833
+  m_fontColor: {r: 0.9433962, g: 0.7220562, b: 0.20825914, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

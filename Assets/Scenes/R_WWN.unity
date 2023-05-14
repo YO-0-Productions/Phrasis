@@ -123,6 +123,221 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &174836176
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503023, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_Name
+      value: DialogueSystem
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+--- !u!1001 &504413996
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4007632315863863125, guid: ba2f27808baba4e40aed10c983d0a2a6, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007632315863863125, guid: ba2f27808baba4e40aed10c983d0a2a6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007632315863863125, guid: ba2f27808baba4e40aed10c983d0a2a6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007632315863863125, guid: ba2f27808baba4e40aed10c983d0a2a6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007632315863863125, guid: ba2f27808baba4e40aed10c983d0a2a6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007632315863863125, guid: ba2f27808baba4e40aed10c983d0a2a6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007632315863863125, guid: ba2f27808baba4e40aed10c983d0a2a6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007632315863863125, guid: ba2f27808baba4e40aed10c983d0a2a6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007632315863863125, guid: ba2f27808baba4e40aed10c983d0a2a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007632315863863125, guid: ba2f27808baba4e40aed10c983d0a2a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007632315863863125, guid: ba2f27808baba4e40aed10c983d0a2a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4007632315863863129, guid: ba2f27808baba4e40aed10c983d0a2a6, type: 3}
+      propertyPath: m_Name
+      value: Mollock
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ba2f27808baba4e40aed10c983d0a2a6, type: 3}
+--- !u!1 &575384909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 575384911}
+  - component: {fileID: 575384910}
+  m_Layer: 0
+  m_Name: DialogueTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &575384910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575384909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed3c6ff892fa7a74283ba8d3354d9e77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - /changeName Moloch
+    - "\u201CShouting\u201D Finally someone arrived. My time in this place and all
+      the madness in this Web of My shit is finally ending I guess."
+    - /changeName White Bull
+    - "My son please calm down. I'm your father. I came here to save you. You don\u2019t
+      have to destroy the Web of Fate. "
+    - We can go outside and take your revenge from Daedalus. I have an immense pasture
+      in fertile crescent.
+    - We can go and live there. We can become a family.
+    - /changeName Moloch
+    - Revenge of what? I can only be grateful to Daedalus. I was angry with him at
+      first. But he gave me a chance no one else was given.
+    - He gave me the chance to become who I want to be in countless possibilities.
+      In this place I had a lot of time to think, to look.
+    - I looked at the walls at first. Screamed, cursed. My eyes were open for so
+      long that no eyes were open this long.
+    - They were open longer than even from the eyes of Weavers and Nyx. At some point
+      I was able to see beyond these walls. I was able to see the Web of Fate.
+    - I saw countless lives of alternate versions of me.
+    - "It was impossible to see Fates that intersect in this nodal place but it doesn\u2019t
+      matter."
+    - At some point, some Athenians came. I treasure that memory. Sweet smell of
+      blood, indescribable flavor of flesh.
+    - After that I knew who I wanted to be, Moloch, horrid King besmear'd with blood.
+      I looked at the Fate Moloch from.
+    - How could I own that Fate if Fates are predestined. And I found a way. Fates
+      were prune to alteration but not destruction.
+    - I cannot leave this place now but once I leave I will devour my way to Fate
+      Moloch from and take his place.
+    - But when I started, why would I stop? All these Fates have no meaning. All
+      of this is nothing but a toy for Nyx.
+    - Only Fate I need is one I will go. I will destroy all others. Finally I will
+      get what I want.
+    - "Finally I will be free.  I\u2026 I\u2019m overfilled with joy. MUHAHAHAHAHA.
+      COME TO ME !!!"
+    - /changeName White Bull
+    - "\u201CStunned by what he heard\u201D"
+    - /changeName Theseus
+    - "\u201CAttacks to Molock\u201D As you wish."
+    - /changeName Moloch
+    - "\u201CDodges the attack\u201D You are good. Even for eyes that saw all Web
+      of Fate."
+    - /changeName Theseus
+    - You have the technique but you lack field experience, as expected.
+    - /changeName Sphinx
+    - "\u201CClaws at\u201D"
+    - /changeName Moloch
+    - "\u201DKicks Sphinx to wall\u201D"
+    - /changeName Sphinx
+    - 'He Who is Upon his Sacred Mountain,This is neither the time, nor the place. '
+    - /changeName Asterion
+    - "\u201CSwings his horns and cuts the arm of Moloch\u201D We don\u2019t have
+      to do this."
+    - /changeName Moloch
+    - "\u201CTakes Theseus\u2019s sword away with a quick move and attacks to Asterion
+      '' I did not expect less from an alternate version of me but your time is over."
+--- !u!4 &575384911
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575384909}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.518682, y: -45.353733, z: 39.226974}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &834138686
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,7 +418,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!850595691 &888029947
 LightingSettings:
@@ -432,7 +647,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1259830915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -578,13 +793,70 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -2, y: 3.5}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1492237824
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 257756453351057296, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_Name
+      value: WhiteBull
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.35214
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.810794
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.92387956
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.38268343
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
 --- !u!1 &1533435954
 GameObject:
   m_ObjectHideFlags: 0
@@ -600,7 +872,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1533435955
 Transform:
   m_ObjectHideFlags: 0
@@ -615,7 +887,7 @@ Transform:
   - {fileID: 1599410935}
   - {fileID: 1797120656}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1599410933
 GameObject:
@@ -832,7 +1104,7 @@ Transform:
   m_Children:
   - {fileID: 1133945272}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2125676532
 PrefabInstance:

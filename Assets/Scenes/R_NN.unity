@@ -123,6 +123,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &400173931
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7650328147470659413, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_Name
+      value: Sphinx_seated
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
 --- !u!1 &834138686
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,6 +323,63 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaDirect: 0.5
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
+--- !u!1001 &958004402
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3249536475134212122, guid: dc961cb24f4f7b24083a2db4e412fdd9, type: 3}
+      propertyPath: m_Name
+      value: Daedalus
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249536475134212123, guid: dc961cb24f4f7b24083a2db4e412fdd9, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249536475134212123, guid: dc961cb24f4f7b24083a2db4e412fdd9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249536475134212123, guid: dc961cb24f4f7b24083a2db4e412fdd9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249536475134212123, guid: dc961cb24f4f7b24083a2db4e412fdd9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249536475134212123, guid: dc961cb24f4f7b24083a2db4e412fdd9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249536475134212123, guid: dc961cb24f4f7b24083a2db4e412fdd9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249536475134212123, guid: dc961cb24f4f7b24083a2db4e412fdd9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249536475134212123, guid: dc961cb24f4f7b24083a2db4e412fdd9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249536475134212123, guid: dc961cb24f4f7b24083a2db4e412fdd9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249536475134212123, guid: dc961cb24f4f7b24083a2db4e412fdd9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3249536475134212123, guid: dc961cb24f4f7b24083a2db4e412fdd9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dc961cb24f4f7b24083a2db4e412fdd9, type: 3}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,6 +520,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e4a6cbf9b5943548b3594a7174b8463, type: 3}
+--- !u!1001 &1080797941
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503023, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_Name
+      value: DialogueSystem
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
 --- !u!1001 &1133945271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -489,7 +660,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1259830915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -657,7 +828,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1533435955
 Transform:
   m_ObjectHideFlags: 0
@@ -860,6 +1031,63 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1001 &1842956555
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3599695856793127776, guid: 9243dedbc189dc74c881f0a3c03ed1a2, type: 3}
+      propertyPath: m_Name
+      value: Icarus
+      objectReference: {fileID: 0}
+    - target: {fileID: 3599695856793127777, guid: 9243dedbc189dc74c881f0a3c03ed1a2, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3599695856793127777, guid: 9243dedbc189dc74c881f0a3c03ed1a2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3599695856793127777, guid: 9243dedbc189dc74c881f0a3c03ed1a2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3599695856793127777, guid: 9243dedbc189dc74c881f0a3c03ed1a2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3599695856793127777, guid: 9243dedbc189dc74c881f0a3c03ed1a2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3599695856793127777, guid: 9243dedbc189dc74c881f0a3c03ed1a2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3599695856793127777, guid: 9243dedbc189dc74c881f0a3c03ed1a2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3599695856793127777, guid: 9243dedbc189dc74c881f0a3c03ed1a2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3599695856793127777, guid: 9243dedbc189dc74c881f0a3c03ed1a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3599695856793127777, guid: 9243dedbc189dc74c881f0a3c03ed1a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3599695856793127777, guid: 9243dedbc189dc74c881f0a3c03ed1a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9243dedbc189dc74c881f0a3c03ed1a2, type: 3}
 --- !u!1 &1902916483
 GameObject:
   m_ObjectHideFlags: 0
@@ -890,6 +1118,172 @@ Transform:
   - {fileID: 1133945272}
   m_Father: {fileID: 0}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2125519430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2125519432}
+  - component: {fileID: 2125519431}
+  m_Layer: 0
+  m_Name: DialogueTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2125519431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125519430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed3c6ff892fa7a74283ba8d3354d9e77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - /changeName Daedalus
+    - "\u201CShouting\u201D Why did you follow me ?"
+    - /changeName Icarus
+    - "I\u2019m your partner in this crime, thanks for it."
+    - /changeName Daedalus
+    - My fool son. Is this your understanding about righteousness? Did Minos say
+      something to you ? No. Is punishment for an unknowing accomplice suffering
+      to death ? No.
+    - What should Minos do then, send all workers to the labyrinth too? You should
+      never touch my damn notes.
+    - /changeName Icarus
+    - I made my own choice.
+    - /changeName Daedalus
+    - "Maybe it will be like this\u2026 My try for saving you led us to your end.
+      I\u2026am sorry."
+    - /changeName Icarus
+    - "\u201CSits down quietly\u201D"
+    - /changeName Daedalus
+    - "This writings, everywhere. I don\u2019t know the language but from drawings,
+      it's about Fate. I can decrypt it. Maybe I was successful, we can go out."
+    - /changeName Icarus
+    - "We shouldn\u2019t."
+    - /changeName Daedalus
+    - "\u201DSighs\u201D"
+    - What the fuck I have done?
+    - /changeName Icarus
+    - Yeah, right?
+    - /changeName Daedalus
+    - Listen me Icarus. You read my notes but you did not read all of them. Not surprising.
+      As impulsive as always. You should read all of them before running to Minos
+      to report.
+    - 2 years before we started to build the labyrinth, my future self contacted
+      me. At first I thought I was losing my sanity.
+    - /changeName Icarus
+    - Maybe you lost it.
+    - /changeName Asterion
+    - "Daedalus !!? Umm\u2026 Is it, like, bad timing ?"
+    - /changeName Daedalus
+    - From your reaction, not the Daedalus you know. About timing, both so bad and
+      so good. Let me finish with my stupid son.
+    - If you do not shut up and listen I will. He was able to write on things I own,
+      like, we own with a tool he upgraded from one of Perdix going to invent.
+    - "He told me that he was, no, I\u2019m going to kill Perdix, my nephew, out
+      of jealousy about that device. He told me that I\u2019m going to cause your
+      death, Icarus."
+    - "I didn\u2019t build this place to trigger an abnormal nodal point out of curiosity.
+      There was no way I could accept a Fate like that."
+    - "I hoped to trap one son of Pasipha\xEB from any of the Fates that intersects
+      to this place for so long."
+    - With that way maybe as a god who is immortal with the amount of time that no
+      one ever had trapped in a nodal place he can find a way to change the Fate.
+    - /changeName Icarus
+    - "\u201CShouting\u201D And that justifies your action. You imprisoned\u2026
+      No. You damned some innocent person with that eternity. I would rather both
+      me and Perdix die."
+    - /changeName Daedalus
+    - "\u201CShouting\u201D I did what I had to do. All the damn gods that know about
+      the Web of Fate do nothing about changing our pathetic reality."
+    - I, Daedalus, one of  the few mortals know about the Web of Fate. Only one is
+      able to understand it beside weavers.
+    - "I opposed a force even pantheons couldn\u2019t do anything about. This was
+      my attempt to deicide and I was right."
+    - But I was too right. I decrypted these writings all over the place.
+    - "Son of Pasipha\xEB figured out a way to oppose Fate. But he is also maddened,
+      he is planning to destroy all Web of Fate until only one Fate remains."
+    - "Normally it wouldn\u2019t matter but when he goes outside he will be able
+      to change Fate so we may also be able to affect it. We should go outside and
+      warn people in case he exits from this place."
+    - /changeName Icarus
+    - You created a monster able to destroy literally all reality and you are still
+      able to say you are right.
+    - I normally would not follow you but after we take care of the monster you created,
+      if it's possible after this point, someone also needs to take care of the creator
+      of it.
+    - /changeName Daedalus
+    - "\u201CSighs\u201D So, since my son is finally kinda satisfied. How much do
+      you know about what's going on ?"
+    - /changeName Sphinx
+    - "Damn. You did all of this mess. Fuck you by the way. I've been here for three
+      years. We know about Fates and we know the guy you talk about but I didn\u2019t
+      know he was this dangerous."
+    - "I found people eaten by him. Yeah, he eats people. We are trying to go to
+      the Fate you came from if you are not Asterion\u2019s Daedalus."
+    - /changeName Daedalus
+    - "There can be more Asterion\u2019sa and more Fates intersecting. Are you sure
+      you know the Web of Fate?"
+    - /changeName Sphinx
+    - "Oooo all knowing great Daedalus. I know what I\u2019m talking about."
+    - And I suggest you shove your ego to your damn ass in front of the god you imprisoned
+      three years with a mad monster which is again you created.
+    - Ra sent me here. We know in this nodal place exactly two fates intersect.
+    - /changeName Daedalus
+    - How can you possibly know about it?
+    - /changeName Sphinx
+    - "Don\u2019t you have access to multiple oracles? Oh sorry you don\u2019t. You
+      are not a head god of a pantheon."
+    - Do you really believe you know every possible knowledge about the Web of Fate?
+      Then why did you create this place? Go change yourself your damned fate.
+    - Whatever. Then we are going to the same Fate. Now shut up and lead the way.
+    - /changeName Daedalus
+    - We need to go in the opposite direction. There is an emergency exit that does
+      not work for gods. We can go outside from there to warn them in case of mad
+      one goes out.
+    - But Minos will catch us and since he knows about the time anomaly in labyrinth
+      he won't believe us. But there is a way we can escape from guards.
+    - Can you give us some of your feathers? We can escape from Minos by flying to
+      another city.
+    - I built the Cretan navy. Any other king will make the things I told even if
+      he does not believe me.
+    - /changeName Sphinx
+    - Now you want my wings? Are you for real? No, I will not give even one feather.
+    - /changeName Asterion
+    - "Sphinx\u2026 I get the three year thing but come on. Be reasonable."
+    - /changeName Sphinx
+    - Ok. But damn you Daedalus. All destruction and misfortune of Sakhmet be over
+      you.
+    - /changeName Icarus
+    - I will be sure about that part.
+    - I hope to see you outside.
+    - /changeName Asterion
+    - "If you don\u2019t that means we all messed up. See you."
+--- !u!4 &2125519432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125519430}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &7358617752913805239
 PrefabInstance:

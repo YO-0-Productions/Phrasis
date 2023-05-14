@@ -189,6 +189,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4495587792632096212, guid: b56f0e60a19eb5247b6bbb7cb868f2bf, type: 3}
   m_PrefabInstance: {fileID: 331884312}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &571666670
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 86745220318203441, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7650328147470659413, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
+      propertyPath: m_Name
+      value: Sphinx_seated
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6436e47269b66424390d7a785e8cc2f9, type: 3}
 --- !u!1001 &641110458
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -246,6 +303,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e4a6cbf9b5943548b3594a7174b8463, type: 3}
+--- !u!1001 &661144250
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1586856261895935712, guid: b38c018816a27f344b0425a2741cae1d, type: 3}
+      propertyPath: m_Name
+      value: Theseus
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228118360028378555, guid: b38c018816a27f344b0425a2741cae1d, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228118360028378555, guid: b38c018816a27f344b0425a2741cae1d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228118360028378555, guid: b38c018816a27f344b0425a2741cae1d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228118360028378555, guid: b38c018816a27f344b0425a2741cae1d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228118360028378555, guid: b38c018816a27f344b0425a2741cae1d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228118360028378555, guid: b38c018816a27f344b0425a2741cae1d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228118360028378555, guid: b38c018816a27f344b0425a2741cae1d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228118360028378555, guid: b38c018816a27f344b0425a2741cae1d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228118360028378555, guid: b38c018816a27f344b0425a2741cae1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228118360028378555, guid: b38c018816a27f344b0425a2741cae1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228118360028378555, guid: b38c018816a27f344b0425a2741cae1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b38c018816a27f344b0425a2741cae1d, type: 3}
 --- !u!1 &834138686
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,7 +603,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1259830915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -657,7 +771,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1533435955
 Transform:
   m_ObjectHideFlags: 0
@@ -767,6 +881,120 @@ Transform:
   m_Father: {fileID: 1533435955}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 45, y: 45, z: 0}
+--- !u!1001 &1630880488
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503022, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667672243412503023, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+      propertyPath: m_Name
+      value: DialogueSystem
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2ca35beef74e06f4db569c251deaa8ff, type: 3}
+--- !u!1001 &1746717408
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 257756453351057296, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_Name
+      value: WhiteBull
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.94560385
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.32532054
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -37.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 4391307068314368370, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 25180adb639d2ac49ae04801be10e406, type: 3}
 --- !u!1 &1797120655
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,6 +1088,99 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1825628019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1825628021}
+  - component: {fileID: 1825628020}
+  m_Layer: 0
+  m_Name: DialogueTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1825628020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825628019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed3c6ff892fa7a74283ba8d3354d9e77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - /changeName White Bull
+    - "\u201CRuns to Asterion\u201D My son I found you."
+    - /changeName Asterion
+    - "\u201DFlustered \u201D A.. umm I.. I\u2019m not your son, sorry. My father
+      was a mindless bull, not a talking one."
+    - /changeName White Bull
+    - Oh sorry. I was excited. He should look like you, both man and bull. I guess
+      you are him from a different Fate.
+    - /changeName Sphinx
+    - Ok you are the father of Asterion from different Fate but may I ask you why
+      you come to this place?
+    - /changeName White Bull
+    - "In Fate I came from Poseidon tried to make my friend Minos to kill me. When
+      Minos refused he cursed Pasipha\xEB with a mad passion for me."
+    - "I did not know Pasipha\xEB was in that wooden cow. And the result of that
+      night was my son."
+    - "But after his birth Minos imprisoned him because of a false prophecy of Oracle
+      of Delphi. Since I don\u2019t want to see my son bring destruction to the whole
+      world, I accepted it."
+    - And that bastard Daedalus did something to this place. After we learn the prophecy
+      was wrong I enter the labyrinth to save my son.
+    - I hope my son is okay. Did you guys see him?
+    - /changeName Theseus
+    - "Uh\u2026That's rough buddy."
+    - /changeName Asterion
+    - "Well\u2026Sphinx."
+    - /changeName Sphinx
+    - "Your son is most tortured person in Web of Fate. He was trapped in this place
+      for a time that we couldn\u2019t even perceive."
+    - Now he knows how to change Fate but he wants to destroy all Fates but one.
+      He also ate some people.
+    - Ra sent me here with the information that only one version of your son will
+      leave this nodal place.
+    - We were going to find and kill him and leave this place.
+    - /changeName White Bull
+    - Straightforward words of an honest man. Please accept the assurance of our
+      highest considerations.
+    - But the one that looks like he received half of the blessings of Astarte is
+      right . That's rough.
+    - /changeName Asterion
+    - "\u201CWhispers to Sphinx\u201D What will we do now?"
+    - /changeName White Bull
+    - No worries young one. About Ra's information that's not necessarily mean one
+      of you needs to die. Maybe he can just stay here.
+    - You also said he is even capable of changing Fate. We did have any time to
+      spend together.
+    - "But they say I\u2019m pretty convincing. I'll join you and deter him from
+      the way he walks. But if we can\u2019t, I\u2019m not detached from reality."
+--- !u!4 &1825628021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825628019}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.518682, y: -45.353733, z: 39.226974}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1902916483
 GameObject:
   m_ObjectHideFlags: 0

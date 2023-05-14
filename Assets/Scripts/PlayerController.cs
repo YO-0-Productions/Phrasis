@@ -9,13 +9,13 @@ public class PlayerController : MonoBehaviour
 
 {
 
-    public float movementUnit = 10.0f;
+    //public float movementUnit = 10.0f;
 
     private Dictionary<string, Action> keywordActions = new Dictionary<string, Action>();
     private KeywordRecognizer keywordRecognizer;
     private Rigidbody playerRb;
     private Vector3 destination;
-    private float speed = 1000;
+    public float speed = 850;
 
 
     // Start is called before the first frame update
@@ -25,6 +25,8 @@ public class PlayerController : MonoBehaviour
         keywordActions.Add("go left", GoWest);
         keywordActions.Add("go right", GoEast);
         keywordActions.Add("go down", GoSouth);
+        keywordActions.Add("menu", LoadMenu);
+
 
         keywordRecognizer = new KeywordRecognizer(keywordActions.Keys.ToArray());
         keywordRecognizer.OnPhraseRecognized += OnKeywordsRecognised;
@@ -47,8 +49,12 @@ public class PlayerController : MonoBehaviour
 
     private void OnKeywordsRecognised(PhraseRecognizedEventArgs args)
     {
-        Debug.Log("Keyword: " + args.text);
-        keywordActions[args.text].Invoke();
+        if (!GameObject.FindObjectOfType<NumberMaze>())
+        {
+            Debug.Log("Keyword: " + args.text);
+            keywordActions[args.text].Invoke();
+        }
+        
 
     }
 
@@ -78,6 +84,11 @@ public class PlayerController : MonoBehaviour
         Vector3 force = Vector3.back * speed;
         playerRb.AddForce(force);
         FindObjectOfType<AudioManager>().Play("MovementSound");
+    }
+
+    private void LoadMenu()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("StartMenu");
     }
 
     private void LoadEnd()
